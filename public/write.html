@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <link rel="stylesheet" href="/css/global.css" />
+    <meta charset="UTF-8" />
+    <title>Write a Post - Mini SNS</title>
+  </head>
+  <body>
+    <h1>✍️ Write a New Post</h1>
+
+    <!-- Form to submit a new post -->
+    <form action="#" method="post">
+      <label for="writer">Your Name:</label><br />
+      <input
+        type="text"
+        id="writer"
+        name="writer"
+        placeholder="Enter your name"
+        required
+      /><br /><br />
+
+      <label for="content">Your Post:</label><br />
+      <textarea
+        id="content"
+        name="content"
+        rows="5"
+        cols="40"
+        placeholder="What's on your mind?"
+        required
+      ></textarea
+      ><br /><br />
+
+      <button type="submit">Post</button>
+    </form>
+
+    <br />
+    <!-- Link back to home -->
+    <a href="/public/index.html">← Back to Home</a>
+  </body>
+  <script src="js/posts.js"></script>
+</html>

@@ -1,0 +1,25 @@
+.login-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F2F2F2;
+    border: 1px solid #80A2A6;
+    border-radius: 5px;
+}
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #BF5934;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1B2B40;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 3px;
+}

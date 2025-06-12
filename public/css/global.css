@@ -1,0 +1,21 @@
+body{
+    font-family: Lexend, light;
+    background-color:#F2F2F2;
+    color: #333;
+    margin: 0;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #00060D;
+}
+
+a {
+    color: #80A2A6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

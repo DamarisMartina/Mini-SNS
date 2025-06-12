@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name = "viewport" content = "width = device-width, initial-scale=1.0"/>
+    <title>Mini SNS - Home</title>
+    <link rel="stylesheet" href="public/css/global.css" />
+    <link rel="stylesheet" href="public/css/index.css" /> 
+    
+  </head>
+
+  <body>
+    <div>
+      <h1 id="title">Welcome to Mini SNS</h1>
+      <p id="subtitle">By me</p>
+    </div>
+
+    <div class="login-container"></div>
+    <button id="creaboton">Agrega sentencia</button>
+    <button id="eliminaboton">Eliminaultimoboton</button>
+    <div id="container"></div>
+
+    <h1>Login</h1>
+      <form method="POST" action="/login" >
+        <label for="username" >username:</label><br />
+        <input type="text" name="username" placeholder="Enter username" required />
+        <label for="password" >password:</label><br />
+        <input type="password" name="password" placeholder="Enter password" required />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <div>
+      <h2>Go to:</h2>
+        <ul>
+          <li><a href="/public/write.html"> Write a post</a></li>
+          <li><a href="/public/posts.html"> View a post</a></li>
+        </ul>
+    </div>
+    
+    
+  </body>
+  <script src="js/main.js">
+   
+  </script>
+</html>
